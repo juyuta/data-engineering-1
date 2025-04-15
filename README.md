@@ -47,22 +47,22 @@ The project is designed with the following components:
 ## Getting Started
 
 1. Clone the repository:
-    ```bash
+    ```
     git clone https://github.com/juyuta/data-engineering-1.git
     ```
 
 2. Navigate to the project directory:
-    ```bash
+    ```
     cd data-engineering-1
     ```
 
 3. Run Docker Compose to spin up the services:
-    ```bash
+    ```
     docker-compose up
     ```
 
-4. Create a virtal environment with all the dependencies
-   ```bash
-   virtualenv venv
+4. Activate the virtal environment with all the dependencies to run py files:
+   ```
+   venv\Scripts\activate.bat
    pip install -r requirements.txt
    ```
