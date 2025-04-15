@@ -61,8 +61,7 @@ The project is designed with the following components:
     docker-compose up
     ```
 
-4. Activate the virtal environment with all the dependencies to run py files:
+4. Activate the virtal environment with all the dependencies to run .py files:
    ```
-   venv\Scripts\activate.bat
-   pip install -r requirements.txt
+   venv\Scripts\activate
    ```
