@@ -60,3 +60,9 @@ The project is designed with the following components:
     ```bash
     docker-compose up
     ```
+
+4. Create a virtal environment with all the dependencies
+   ```bash
+   virtualenv venv
+   pip install -r requirements.txt
+   ```
