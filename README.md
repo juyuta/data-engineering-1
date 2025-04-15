@@ -35,6 +35,7 @@ The project is designed with the following components:
 
 ## File Structures
 
+```
 root/ 
 ├──  dags/ 
 │    └──  kafka-stream.py 
@@ -43,6 +44,7 @@ root/
 ├──  README.md
 ├──  docker-compose.yml 
 └── requirements.txt
+```
 
 ## Technologies
 
