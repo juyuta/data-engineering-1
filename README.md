@@ -33,6 +33,8 @@ The project is designed with the following components:
 - Data storage solutions with Cassandra and PostgreSQL
 - Containerizing your entire data engineering setup with Docker
 
+## File Structures
+root/ ├── dags/ │├── kafka-stream.py │ ├── script/ │   └── entrypoint.sh │ ├── README.md │ ├──  docker-compose.yml └── requirements.txt
 ## Technologies
 
 - Apache Airflow
@@ -58,10 +60,11 @@ The project is designed with the following components:
 
 3. Run Docker Compose to spin up the services:
     ```
-    docker-compose up
+    docker-compose up -d
     ```
 
-4. Activate the virtal environment with all the dependencies to run .py files:
+4. Create & Activate the virtal environment with all the dependencies to run .py files:
    ```
-   venv\Scripts\activate
+   python venv venv
+   venv\Scripts\activate.bat
    ```
