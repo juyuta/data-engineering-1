@@ -34,7 +34,16 @@ The project is designed with the following components:
 - Containerizing your entire data engineering setup with Docker
 
 ## File Structures
-root/ ├── dags/ │├── kafka-stream.py │ ├── script/ │   └── entrypoint.sh │ ├── README.md │ ├──  docker-compose.yml └── requirements.txt
+
+root/ 
+├──  dags/ 
+│    └──  kafka-stream.py 
+├──  script/ 
+│    └── entrypoint.sh 
+├──  README.md
+├──  docker-compose.yml 
+└── requirements.txt
+
 ## Technologies
 
 - Apache Airflow
