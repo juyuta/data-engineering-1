@@ -40,10 +40,12 @@ root/
 ├──  dags/ 
 │    └──  kafka-stream.py 
 ├──  script/ 
-│    └── entrypoint.sh 
+│    ├── entrypoint.sh
+│    └── requirements.txt
+├──  docker-compose.yml
 ├──  README.md
-├──  docker-compose.yml 
-└── requirements.txt
+├──  requirements.txt
+└──  spark_stream.py
 ```
 
 ## Technologies
